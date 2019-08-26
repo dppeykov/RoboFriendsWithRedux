@@ -7,10 +7,12 @@ import ErrorBoundary from "../components/ErrorBoundary";
 import { setSearchField } from "../actions";
 import "./App.css";
 
+// Handling the state
 const mapStateToProps = state => {
   return { searchField: state.searchField };
 };
 
+// Dispatching the actions
 const mapDispatchToProps = dispatch => {
   return {
     onSearchChange: event => dispatch(setSearchField(event.target.value))
