@@ -1,2 +1,0 @@
-# RoboFriendsWithRedux
-Created with CodeSandbox
