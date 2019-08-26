@@ -38,7 +38,12 @@ class App extends Component {
       <h1>Loading</h1>
     ) : (
       <div className="tc">
-        <h1 className="f1 tracked">RoboFriends</h1>
+        <h1
+          className="f1 tracked washed-yellow shadow-2"
+          style={{ textShadow: "2px 2px #909090" }}
+        >
+          RoboFriends
+        </h1>
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
           <ErrorBoundary>
